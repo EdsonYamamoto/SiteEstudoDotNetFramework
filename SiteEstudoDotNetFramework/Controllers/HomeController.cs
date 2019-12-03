@@ -1,8 +1,4 @@
-﻿using LocalEdwpBot.Classes;
-using LocalEdwpBot.Models;
-using Microsoft.Bot.Connector;
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
