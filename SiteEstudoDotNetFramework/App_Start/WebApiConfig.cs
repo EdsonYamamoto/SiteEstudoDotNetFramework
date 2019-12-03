@@ -14,7 +14,7 @@ namespace SiteEstudoDotNetFramework
             // Rotas da API da Web
             config.MapHttpAttributeRoutes();
 
-            //config.Filters.Add(new BasicAuthenticationAttribute());
+            config.Filters.Add(new BasicAuthentication());
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

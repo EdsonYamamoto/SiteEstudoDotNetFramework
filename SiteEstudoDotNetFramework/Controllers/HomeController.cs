@@ -24,5 +24,13 @@ namespace SiteEstudoDotNetFramework.Controllers
         {
             return View();
         }
+
+
+        //GET: Logged
+        [Authorize(Roles = "SuperAdmin, Admin, User")]
+        public ActionResult Logged()
+        {
+            return View();
+        }
     }
 }
