@@ -18,6 +18,7 @@ namespace SiteEstudoDotNetFramework.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
+            Console.WriteLine("teste");
 
             return View();
         }
