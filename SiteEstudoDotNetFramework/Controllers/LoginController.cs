@@ -14,6 +14,8 @@ namespace SiteEstudoDotNetFramework.Controllers
         [System.Web.Http.HttpPost]
         public string Login (string login, string password)
         {
+
+
             /*
             string authorityUri = "https://login.windows.net/common/oauth2/authorize";
             AuthenticationContext authContext = new AuthenticationContext(authorityUri);
