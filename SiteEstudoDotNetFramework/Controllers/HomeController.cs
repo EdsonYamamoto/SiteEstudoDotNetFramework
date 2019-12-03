@@ -18,5 +18,11 @@ namespace SiteEstudoDotNetFramework.Controllers
 
             return View();
         }
+
+        // GET: Login
+        public ActionResult Login()
+        {
+            return View();
+        }
     }
 }
