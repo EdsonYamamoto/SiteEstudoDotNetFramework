@@ -18,7 +18,7 @@ namespace SiteEstudoDotNetFramework.Repository
             user.UserName.Equals(username, StringComparison.OrdinalIgnoreCase)
             && user.UserPassword == password);
             */
-            return new Models.UserModel {username="Terry", password="1234" };
+            return new Models.UserModel {username="Terry", password="1234", userRoles="admin" };
 
         }
 

@@ -13,6 +13,7 @@ namespace SiteEstudoDotNetFramework.Controllers
     {
         public ActionResult Index()
         {
+            Utils.Logger.LoggerArquivo("teste");
             ViewBag.Title = "Home Page";
             Console.WriteLine("teste");
 

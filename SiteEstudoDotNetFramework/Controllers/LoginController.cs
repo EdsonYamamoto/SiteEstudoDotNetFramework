@@ -43,6 +43,7 @@ namespace SiteEstudoDotNetFramework.Controllers
             return Redirect(authUri.ToString());
             */
             return login +" "+password;
+
         }
 
     }
